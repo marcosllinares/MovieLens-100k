@@ -293,37 +293,9 @@ VERBOSE = True   # Muestra detalles durante la ejecución
 VERBOSE = False  # Solo muestra resultados finales
 ```
 
-## 📚 Referencias
-
-- **Librería Surprise**: https://surpriselib.com/
-- **MovieLens Datasets**: https://grouplens.org/datasets/movielens/
-- **Paper de referencia**: Harper, F. M., & Konstan, J. A. (2015). The MovieLens Datasets: History and Context. ACM TiiS, 5(4), 19:1–19:19.
-
-## 🐛 Solución de Problemas
-
-### Error: "FileNotFoundError"
-
-Verifica que las rutas en `config.py` sean correctas y que los datasets estén descomprimidos.
-
-### Error: "ModuleNotFoundError: No module named 'surprise'"
-
-Instala la librería:
-```bash
-pip install scikit-surprise
-```
-
 ### El dataset 32M es muy lento
 
 Esto es normal debido al tamaño. Puedes:
 1. Reducir el número de folds: `CV_FOLDS = 3`
 2. Seleccionar solo algunos algoritmos: `RUN_ALL_ALGORITHMS = False`
 3. Ajustar parámetros para que los algoritmos sean más rápidos (menos épocas, menos factores)
-
-## 📝 Licencia
-
-Este proyecto es para uso académico según las condiciones de uso de los datasets MovieLens.
-
-## 👥 Contacto
-
-Marcos Llinares Montes - Ángel De Lorenzo Jerez  
-Universidad de La Laguna - Sistemas Inteligentes
