@@ -2,10 +2,56 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 
 # Entorno virtual
 venv/
 .venv/
 env/
 ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Resultados del sistema (generados automáticamente)
+resultados/*.csv
+resultados/*.txt
+
+# Datasets y archivos comprimidos
+ml-100k/
+ml-32m/
+ml-25m/
+ml-20m/
+ml-latest/
+*.zip
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 
