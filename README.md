@@ -87,12 +87,6 @@ El script te permitirá elegir:
 pip install -r requirements.txt
 ```
 
-O manualmente:
-
-```bash
-pip install pandas numpy scikit-surprise
-```
-
 ## ⚙️ Configuración
 
 Edita el archivo `config.py` para personalizar la ejecución:
