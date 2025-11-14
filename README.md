@@ -213,10 +213,12 @@ Evaluando: NormalPredictor
 
 ## 📊 Resultados
 
-Los resultados se guardan automáticamente en el directorio `resultados/`:
+Los resultados se guardan en `resultados/resultados_{DATASET}.csv` con estas columnas:
 
-- `resultados_100k.csv` - Resultados para MovieLens 100k
-- `resultados_32m.csv` - Resultados para MovieLens 32M
+- **RMSE_mean / MAE_mean**: Menor es mejor (precisión de predicción)
+- **RMSE_std / MAE_std**: Menor es mejor (consistencia)
+- **Fit_time_mean**: Tiempo de entrenamiento
+- **Total_time**: Tiempo total de evaluación
 
 ### Formato del CSV
 
